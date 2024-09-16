@@ -82,6 +82,7 @@ header {
     font-size: 35px;
     z-index: 101;
     cursor: pointer;
+    display: none;
 }
 
 #menu-toggle {
@@ -310,10 +311,9 @@ section {
         margin: 8px 0;
     }
 
-    #menu-toggle:checked + label.menu-icon-action + .navlist {
+    .navlist.open {
         right: 0;
     }
-
 }
 
 
